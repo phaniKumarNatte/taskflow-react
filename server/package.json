@@ -1,0 +1,21 @@
+{
+  "name": "taskflow-server",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "TaskFlow API — Express + MongoDB backend. Also serves as a Node/Express/MongoDB interview-prep handbook.",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1"
+  }
+}

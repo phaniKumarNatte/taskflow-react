@@ -1,0 +1,6 @@
+/*
+Tailwind v4: one import pulls in base/reset, design tokens, and utility
+generation — no separate tailwind.config.js content-glob is required
+because the @tailwindcss/vite plugin scans source files directly.
+*/
+@import "tailwindcss";
